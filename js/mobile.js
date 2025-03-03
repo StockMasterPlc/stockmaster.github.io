@@ -1,4 +1,3 @@
-/* Website template by freewebsitetemplates.com */
 window.onload = function(){
 			var getNavi = document.getElementById('menu');
 			document.getElementById('mobile-navigation').onclick = function(){
