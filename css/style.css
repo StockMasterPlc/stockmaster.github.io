@@ -125,9 +125,11 @@ img {
 	width: 89.5833%;
 }
 #body.home div.header div span {
-	display: block;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	margin: 0 auto 52px;
-	max-width: 350px;
+	max-width: 360px;
 	overflow: hidden;
 	padding: 0;
 	width: 37.4583%;
@@ -136,7 +138,7 @@ img {
 	border: 5px solid #000000;
 	color: #000000;
 	display: block;
-	float: left;
+	float: none;
 	font-family: Arial;
 	font-size: 20px;
 	font-weight: bold;
@@ -146,7 +148,7 @@ img {
 	padding: 0;
 	text-align: center;
 	text-transform: uppercase;
-	width: 63.142857142857%;
+	width: 50%;
 }
 #body.home div.header div span a.signup {
 	border: 5px solid #000000;
@@ -163,7 +165,7 @@ img {
 	padding: 0;
 	text-align: center;
 	text-transform: uppercase;
-	width: 32.571428571429%;
+	width: 50%;
 }
 #body.home div.header div img {
 	display: block;
